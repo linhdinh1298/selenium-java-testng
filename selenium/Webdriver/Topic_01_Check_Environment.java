@@ -19,7 +19,6 @@ public class Topic_01_Check_Environment {
     public void TC_02_Run_On_Chrome() {
         driver = new ChromeDriver();
         driver.get("https://www.facebook.com/");
-        // note
         driver.quit();
     }
 
